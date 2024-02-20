@@ -1,0 +1,142 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #222 
+}
+
+#cv{
+ position: absolute;
+ width: 100vw;
+ height: 100vw;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ background: #EBFF84;
+ overflow: hidden;
+}
+
+canvas{
+  position: absolute;
+  
+}
+
+#p1{
+  position: absolute;
+}
+
+
+
+
+#Aria1{
+  position: absolute;
+  touch-action: none;
+  border-radius: 100%;
+  background: #222;
+}
+
+#joy {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 0px;
+  top:  0px;
+  border-radius: 100%;
+  transform: translate(50%,50%);
+  background: #7F8AFF
+}
+
+
+
+
+
+
+
+#Aria2{
+  position: absolute;
+  
+  
+  border-radius: 20%;
+  background: #42445A00
+ 
+}
+
+#Aria2 div{
+  border-radius: 10%;
+}
+
+.btnOf{
+   width: 33%;
+   height: 33%;
+   background: #7F8AFF;
+   transition: .1s;
+    z-index: 999;
+}
+.btnOn{
+  width: 44%;
+  height: 44%;
+  background: #3949FD;
+  transition: .1s;
+  z-index: 999;
+}
+
+
+#btnLeft{
+  position: absolute;
+  
+  top: 50%;
+  transform: translateY(-50%);
+}
+#btnRight{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+
+#btnTop{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+#btnDow {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  
+}
+
+
+
+
+#button1{
+  position: absolute;
+  border-radius: 100%;
+  border: 10px solid #222;
+}
+
+.buttonOf{
+  background: #7F8AFF;
+  z-index: 999;
+  transition: .1s;
+}
+
+.buttonOn{
+  background: #3949FD;
+  z-index: 999;
+  transition: .1s;
+}
+
+
+
+
